@@ -1,0 +1,11 @@
+{
+    "name": "sergey/project-lvl1-s500",
+    "bin": ["bin/brain-games"],
+    "authors": [
+        {
+            "name": "Sergey Titov",
+            "email": "ya.sergeTitov@yandex.ru"
+        }
+    ],
+    "require": {}
+}
