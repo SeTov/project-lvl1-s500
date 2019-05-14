@@ -1,5 +1,5 @@
 {
-    "name": "sergey/project-lvl1-s500",
+    "name": "sergey/project-hexlet-game",
     "bin": ["bin/brain-games"],
     "authors": [
         {
@@ -7,5 +7,11 @@
             "email": "ya.sergeTitov@yandex.ru"
         }
     ],
+      "autoload": {
+    "files": ["src/Greeting.php"],
+    "psr-4": {
+      "ProjectLvlOne\\Greeting\\": "src"
+    }
+  },
     "require": {}
 }

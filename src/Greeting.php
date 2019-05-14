@@ -1,8 +1,9 @@
 <?php
 
-namespace ProjectLvlOne\Greeting;
+namespace ProjectHexletGame\Greeting;
 
-function greeting(): string
+function greeting()
 {
-  return "Welcome to the Brain Games!";
+  print_r("Welcome to the Brain Games!");
+  print_r("\n");
 }
