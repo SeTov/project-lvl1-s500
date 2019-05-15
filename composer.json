@@ -8,10 +8,15 @@
         }
     ],
       "autoload": {
-    "files": ["src/Greeting.php"],
+    "files": [
+      "src/Greeting.php",
+      "src/Cli.php"
+    ],
     "psr-4": {
-      "ProjectLvlOne\\Greeting\\": "src"
+      "BrainGames\\Greeting\\": "src"
     }
   },
-    "require": {}
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    }
 }

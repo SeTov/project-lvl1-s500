@@ -1,6 +1,6 @@
 <?php
 
-namespace ProjectHexletGame\Greeting;
+namespace BrainGames\Greeting;
 
 function greeting()
 {

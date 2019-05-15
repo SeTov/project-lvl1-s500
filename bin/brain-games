@@ -10,6 +10,6 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-use function ProjectHexletGame\Greeting\greeting;
+use function BrainGames\Cli\run;
 
-greeting();
+run();
