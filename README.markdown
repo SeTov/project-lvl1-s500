@@ -4,6 +4,11 @@ Welcome to this repository specially created for stydying of **profession PHP pr
 
 This repository is where **I can practice and apply everything I learn in the courses.**
 
+## Badges
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Build Status](https://travis-ci.org/SeTov/project-lvl1-s500.svg?branch=master)](https://travis-ci.org/SeTov/project-lvl1-s500)
+
 Asciinema for first step of project such as:
 
 - **Install package global**
