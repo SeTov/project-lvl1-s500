@@ -17,8 +17,8 @@ function run($description, $questionAnswerData)
 
     for ($round; $round < $countRound; $round++) {
         [$currentQuestion, $correctAnswer] = $questionAnswerData();
-        line($currentQuestion);
-        line($correctAnswer);
+        // line($currentQuestion);
+        // line($correctAnswer);
 
         line("Question: %s", $currentQuestion);
         $playerAnswer = prompt('Your answer: ');
