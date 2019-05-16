@@ -27,3 +27,5 @@ Asciinema for fifth step of project such as:
 
 - **Install package global**
 - **Call brain-calc program**
+
+[![asciicast](https://asciinema.org/a/cEkowtlK4DKeqXnp7VrFKpu83.svg)](https://asciinema.org/a/cEkowtlK4DKeqXnp7VrFKpu83)
