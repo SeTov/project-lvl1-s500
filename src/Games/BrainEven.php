@@ -21,8 +21,3 @@ Answer \"yes\" if number even otherwise answer \"no\".";
       };
     run($description, $getAnswerQuestionData);
 }
-
-
-
-
-

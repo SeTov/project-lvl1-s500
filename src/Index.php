@@ -32,5 +32,4 @@ function run($description, $questionAnswerData)
     if ($round === $countRound) {
         line("Congratulations, %s!", $name);
     }
-
 }
