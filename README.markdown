@@ -36,3 +36,10 @@ Asciinema for sixth step of project such as:
 - **Call brain-gcd program**
 
 [![asciicast](https://asciinema.org/a/PjZ3Ku2kdb0TaR0P8otA1dutm.svg)](https://asciinema.org/a/PjZ3Ku2kdb0TaR0P8otA1dutm)
+
+Asciinema for seventh step of project such as:
+
+- **Install package global**
+- **Call brain-progression program**
+
+[![asciicast](https://asciinema.org/a/HUwMXmzZvhynTs6oBLc2LJ8ru.svg)](https://asciinema.org/a/HUwMXmzZvhynTs6oBLc2LJ8ru)
