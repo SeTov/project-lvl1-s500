@@ -15,3 +15,11 @@ Asciinema for first step of project such as:
 - **Call brain-games program**
 
 [![asciicast](https://asciinema.org/a/pcFtpopIiqxSytAFpsy3jXekG.svg)](https://asciinema.org/a/pcFtpopIiqxSytAFpsy3jXekG)
+
+Asciinema for fourth step of project such as:
+
+- **Install package global**
+- **Call brain-even program**
+
+
+[![asciicast](https://asciinema.org/a/nynmo5LcIR42PAegWLSV2rssr.svg)](https://asciinema.org/a/nynmo5LcIR42PAegWLSV2rssr)
