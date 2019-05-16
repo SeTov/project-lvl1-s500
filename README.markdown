@@ -21,5 +21,9 @@ Asciinema for fourth step of project such as:
 - **Install package global**
 - **Call brain-even program**
 
-
 [![asciicast](https://asciinema.org/a/nynmo5LcIR42PAegWLSV2rssr.svg)](https://asciinema.org/a/nynmo5LcIR42PAegWLSV2rssr)
+
+Asciinema for fifth step of project such as:
+
+- **Install package global**
+- **Call brain-calc program**
