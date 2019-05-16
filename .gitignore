@@ -1,8 +1,1 @@
 /vendor/
-
-!src/
-src/*
-!src/.vscode/
-
-target/
-.vscode/
