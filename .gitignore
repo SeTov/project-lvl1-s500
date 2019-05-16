@@ -1,5 +1,5 @@
 /vendor/
-!src/
 
+!src/
 src/*
-!src/.vscode/
+!src/vscode/
