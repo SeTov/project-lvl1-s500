@@ -2,4 +2,4 @@
 !src/
 
 src/*
-!scr/.vscode/
+!src/.vscode/
