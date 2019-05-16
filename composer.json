@@ -2,6 +2,7 @@
     "name": "sergey/project-hexlet-game",
     "bin": [
       "bin/brain-games",
+      "bin/brain-calc",
       "bin/brain-even"
     ],
     "authors": [
@@ -19,6 +20,7 @@
       "src/Greeting.php",
       "src/Cli.php",
       "src/Games/BrainEven.php",
+      "src/Games/BrainCalc.php",
       "src/Index.php"
     ],
     "psr-4": {

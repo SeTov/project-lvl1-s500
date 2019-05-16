@@ -17,15 +17,18 @@ function run($description, $questionAnswerData)
 
     for ($round; $round < $countRound; $round++) {
         [$currentQuestion, $correctAnswer] = $questionAnswerData();
-        //line($currentQuestion);
-        //line($correctAnswer);
+        line($currentQuestion);
+        line($correctAnswer);
 
         line("Question: %s", $currentQuestion);
         $playerAnswer = prompt('Your answer: ');
-        if ($playerAnswer === $correctAnswer) {
+        if ($playerAnswer == $correctAnswer) {
             line("Correct!");
+            line();
         } else {
-            line("%s is wrong answer", $playerAnswer);
+            print_r("{$playerAnswer} is wrong answer ;(. ");
+            line("Correct answer was %s", $correctAnswer);
+            line("Let's try again, %s", $name);
             break;
         }
     }
