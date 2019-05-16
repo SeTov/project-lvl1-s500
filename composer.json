@@ -1,6 +1,9 @@
 {
     "name": "sergey/project-hexlet-game",
-    "bin": ["bin/brain-games"],
+    "bin": [
+      "bin/brain-games",
+      "bin/brain-even"
+    ],
     "authors": [
         {
             "name": "Sergey Titov",
@@ -14,7 +17,9 @@
       "autoload": {
     "files": [
       "src/Greeting.php",
-      "src/Cli.php"
+      "src/Cli.php",
+      "src/Games/BrainEven.php",
+      "src/Index.php"
     ],
     "psr-4": {
       "BrainGames\\Greeting\\": "src"
