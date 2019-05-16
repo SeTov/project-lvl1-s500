@@ -2,4 +2,7 @@
 
 !src/
 src/*
-!src/vscode/
+!src/.vscode/
+
+target/
+.vscode/
