@@ -29,3 +29,10 @@ Asciinema for fifth step of project such as:
 - **Call brain-calc program**
 
 [![asciicast](https://asciinema.org/a/cEkowtlK4DKeqXnp7VrFKpu83.svg)](https://asciinema.org/a/cEkowtlK4DKeqXnp7VrFKpu83)
+
+Asciinema for sixth step of project such as:
+
+- **Install package global**
+- **Call brain-gcd program**
+
+[![asciicast](https://asciinema.org/a/PjZ3Ku2kdb0TaR0P8otA1dutm.svg)](https://asciinema.org/a/PjZ3Ku2kdb0TaR0P8otA1dutm)
