@@ -5,6 +5,7 @@
       "bin/brain-calc",
       "bin/brain-gcd",
       "bin/brain-progression",
+      "bin/brain-prime",
       "bin/brain-even"
     ],
     "authors": [
@@ -25,6 +26,7 @@
       "src/Games/BrainCalc.php",
       "src/Games/BrainGcd.php",
       "src/Games/BrainProg.php",
+      "src/Games/BrainPrime.php",
       "src/Index.php"
     ],
     "psr-4": {
