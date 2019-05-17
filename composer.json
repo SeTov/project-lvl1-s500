@@ -1,5 +1,6 @@
 {
     "name": "sergey/project-hexlet-game",
+    "description": "PHP Hexlet Project",
     "bin": [
       "bin/brain-games",
       "bin/brain-calc",
@@ -7,6 +8,13 @@
       "bin/brain-progression",
       "bin/brain-prime",
       "bin/brain-even"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+      "games",
+      "brain games",
+      "hexlet"
     ],
     "authors": [
         {
