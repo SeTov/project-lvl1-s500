@@ -43,3 +43,10 @@ Asciinema for seventh step of project such as:
 - **Call brain-progression program**
 
 [![asciicast](https://asciinema.org/a/HUwMXmzZvhynTs6oBLc2LJ8ru.svg)](https://asciinema.org/a/HUwMXmzZvhynTs6oBLc2LJ8ru)
+
+Asciinema for eighth step of project such as:
+
+- **Install package global**
+- **Call brain-prime program**
+
+[![asciicast](https://asciinema.org/a/CurvV9kztbgl5Gz2hYXi50X8Y.svg)](https://asciinema.org/a/CurvV9kztbgl5Gz2hYXi50X8Y)
