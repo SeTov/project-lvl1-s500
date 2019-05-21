@@ -15,12 +15,12 @@ function isEven($number)
 
 function runBrainEvenGame()
 {
-      $getAnswerQuestionData = function () {
+      $getData = function () {
         $question = random_int(MIN, MAX);
         $correctAnswer = isEven($question) ? 'yes' : 'no';
         $questionAnswerData = [$question, $correctAnswer];
         return $questionAnswerData;
       };
       
-    run(DESCRIPTION, $getAnswerQuestionData);
+    run(DESCRIPTION, $getData);
 }

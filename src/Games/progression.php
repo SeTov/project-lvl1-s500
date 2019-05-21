@@ -18,7 +18,7 @@ function getProgression()
 
 function runBrainProgressionGame()
 {
-    $getAnswerQuestionData = function () {
+    $getData = function () {
         $progArray = getProgression();
         $randKey = array_rand($progArray);
         $correctAnswer = $progArray[$randKey];
@@ -29,5 +29,5 @@ function runBrainProgressionGame()
         return $questionAnswerData;
     };
 
-    run(DESCRIPTION, $getAnswerQuestionData);
+    run(DESCRIPTION, $getData);
 }

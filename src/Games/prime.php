@@ -23,7 +23,7 @@ function isPrime($num)
 
 function runBrainPrimeGame()
 {
-    $getAnswerQuestionData = function () {
+    $getData = function () {
         $question = rand(2, 278);
         $correctAnswer = isPrime($question) ? 'yes' : 'no';
 
@@ -31,5 +31,5 @@ function runBrainPrimeGame()
         return $questionAnswerData;
     };
 
-    run(DESCRIPTION, $getAnswerQuestionData);
+    run(DESCRIPTION, $getData);
 }

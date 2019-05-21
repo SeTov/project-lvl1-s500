@@ -8,7 +8,7 @@ const DESCRIPTION = "What is the result of the expression?";
 
 function runBrainCalcGame()
 {
-      $getAnswerQuestionData = function () {
+      $getData = function () {
         $operations = ["-", "+", "*"];
         $operation = $operations[array_rand($operations)];
 
@@ -29,5 +29,5 @@ function runBrainCalcGame()
         
         return $operationsAndFunctions[$operation]($operandOne, $operandTwo);
       };
-    run(DESCRIPTION, $getAnswerQuestionData);
+    run(DESCRIPTION, $getData);
 }

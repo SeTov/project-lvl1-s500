@@ -18,8 +18,8 @@ function run($description, $questionAnswerData)
 
     for ($i = 0; $i < COUNT_ROUND; $i++) {
         [$currentQuestion, $correctAnswer] = $questionAnswerData();
-        line($currentQuestion);
-        line($correctAnswer);
+        // line($currentQuestion);
+        // line($correctAnswer);
 
         line("Question: %s", $currentQuestion);
         $playerAnswer = prompt('Your answer');
