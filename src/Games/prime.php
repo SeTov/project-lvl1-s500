@@ -1,16 +1,16 @@
 <?php
 
-namespace BrainGames\Games\BrainPrime;
+namespace BrainGames\Games\prime;
 
-use function BrainGames\Index\run;
+use function BrainGames\index\run;
+
+const DESCRIPTION
+    = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
 
 function isPrime($num)
 {
-    if ($num === 1) {
+    if ($num <= 1) {
         return false;
-    }
-    if ($num <= 3) {
-        return true;
     }
     $stop = floor($num / 2);
     for ($i = 2; $i <= $stop; $i++) {
@@ -23,20 +23,13 @@ function isPrime($num)
 
 function runBrainPrimeGame()
 {
-    $description = "
-Welcome to Brain Games!
-Answer \"yes\" if given number is prime. Otherwise answer \"no\".";
-
     $getAnswerQuestionData = function () {
-        
-        $numbers = range(2, 278);
-        $randKey = array_rand($numbers);
-        $question = $numbers[$randKey];
+        $question = rand(2, 278);
         $correctAnswer = isPrime($question) ? 'yes' : 'no';
 
         $questionAnswerData = [$question, $correctAnswer];
         return $questionAnswerData;
     };
 
-    run($description, $getAnswerQuestionData);
+    run(DESCRIPTION, $getAnswerQuestionData);
 }

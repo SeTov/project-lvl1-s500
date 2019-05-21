@@ -1,50 +1,47 @@
 {
-    "name": "sergey/project-hexlet-game",
-    "description": "PHP Hexlet Project",
-    "bin": [
-      "bin/brain-games",
-      "bin/brain-calc",
-      "bin/brain-gcd",
-      "bin/brain-progression",
-      "bin/brain-prime",
-      "bin/brain-even"
+    "name":"sergey/project-hexlet-game",
+    "description":"PHP Hexlet Project",
+    "bin":[
+        "bin/brain-games",
+        "bin/brain-calc",
+        "bin/brain-gcd",
+        "bin/brain-progression",
+        "bin/brain-prime",
+        "bin/brain-even"
     ],
-    "type": "project",
-    "license": "MIT",
-    "keywords": [
-      "games",
-      "brain games",
-      "hexlet"
+    "type":"project",
+    "license":"MIT",
+    "keywords":[
+        "games",
+        "brain games",
+        "hexlet"
     ],
-    "authors": [
+    "authors":[
         {
-            "name": "Sergey Titov",
-            "email": "ya.sergeTitov@yandex.ru"
+            "name":"Sergey Titov",
+            "email":"ya.sergeTitov@yandex.ru"
         }
     ],
-    "scripts": {
-      "phpcs": "phpcs",
-      "phpcbf": "phpcbf"
+    "scripts":{
+        "phpcs":"phpcs",
+        "phpcbf":"phpcbf"
     },
-      "autoload": {
-    "files": [
-      "src/Greeting.php",
-      "src/Cli.php",
-      "src/Games/BrainEven.php",
-      "src/Games/BrainCalc.php",
-      "src/Games/BrainGcd.php",
-      "src/Games/BrainProg.php",
-      "src/Games/BrainPrime.php",
-      "src/Index.php"
-    ],
-    "psr-4": {
-      "BrainGames\\Greeting\\": "src"
-    }
-  },
-    "require": {
-        "wp-cli/php-cli-tools": "^0.11.11"
+    "autoload":{
+        "files":[
+            "src/greeting.php",
+            "src/Cli.php",
+            "src/Games/even.php",
+            "src/Games/calc.php",
+            "src/Games/gcd.php",
+            "src/Games/progression.php",
+            "src/Games/prime.php",
+            "src/index.php"
+        ]
     },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "*"
+    "require":{
+        "wp-cli/php-cli-tools":"^0.11.11"
+    },
+    "require-dev":{
+        "squizlabs/php_codesniffer":"*"
     }
 }

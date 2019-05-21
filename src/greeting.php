@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Greeting;
+namespace BrainGames\greeting;
 
 function greeting()
 {
