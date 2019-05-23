@@ -18,8 +18,8 @@ function run($description, $questionAnswerData)
 
     for ($i = 0; $i < COUNT_ROUND; $i++) {
         [$currentQuestion, $correctAnswer] = $questionAnswerData();
-        // line($currentQuestion);
-        // line($correctAnswer);
+        line($currentQuestion);
+        line($correctAnswer);
 
         line("Question: %s", $currentQuestion);
         $playerAnswer = prompt('Your answer');
@@ -27,9 +27,9 @@ function run($description, $questionAnswerData)
             line("%gCorrect!%n");
             line();
         } else {
-            $messagePartOne = "{$playerAnswer} %ris wrong answer%n ;(. ";
-            $messagePartTwo = "Correct answer was %g{$correctAnswer}%n";
-            line($messagePartOne . $messagePartTwo);
+            $message = "$playerAnswer %ris wrong answer%n ;(. "
+                        . "Correct answer was %g$correctAnswer%n";
+            line($message);
             line("Let's try again, %s", $name);
             return;
         }

@@ -5,29 +5,33 @@ namespace BrainGames\Games\calc;
 use function BrainGames\index\run;
 
 const DESCRIPTION = "What is the result of the expression?";
+const OPERATIONS = ["-", "+", "*"];
 
 function runBrainCalcGame()
 {
       $getData = function () {
-        $operations = ["-", "+", "*"];
-        $operation = $operations[array_rand($operations)];
+        $operation = OPERATIONS[array_rand(OPERATIONS)];
 
         $operandOne = random_int(1, 100);
         $operandTwo = random_int(1, 100);
 
-        $operationsAndFunctions = [
+        $operationsFunctions  = [
             "+" => function ($a, $b) {
-                return ["{$a} + {$b}", (string)($a + $b)];
+                return $a + $b;
             },
             "-" => function ($a, $b) {
-                return ["{$a} - {$b}", (string)($a - $b)];
+                return $a - $b;
             },
             "*" => function ($a, $b) {
-                return ["{$a} * {$b}", (string)($a * $b)];
+                return $a * $b;
             }
         ];
         
-        return $operationsAndFunctions[$operation]($operandOne, $operandTwo);
+        $question = "$operandOne $operation $operandTwo";
+        $answer = $operationsFunctions[$operation]($operandOne, $operandTwo);
+        $answer = (string)$answer;
+        
+        return [$question, $answer];
       };
     run(DESCRIPTION, $getData);
 }
