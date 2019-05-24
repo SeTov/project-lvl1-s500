@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\progression;
+namespace BrainGames\games\progression;
 
 use function BrainGames\index\run;
 
@@ -14,7 +14,7 @@ function getProgression($start, $step)
     return $progression;
 }
 
-function runBrainProgressionGame()
+function runProgressionGame()
 {
     $getData = function () {
         $startSequence = rand(1, 20);

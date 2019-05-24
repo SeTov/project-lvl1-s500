@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\prime;
+namespace BrainGames\games\prime;
 
 use function BrainGames\index\run;
 
@@ -21,7 +21,7 @@ function isPrime($num)
     return true;
 }
 
-function runBrainPrimeGame()
+function runPrimeGame()
 {
     $getData = function () {
         $question = rand(2, 278);

@@ -1,6 +1,6 @@
 <?php
 
-namespace BrainGames\Games\even;
+namespace BrainGames\games\even;
 
 use function BrainGames\index\run;
 
@@ -13,7 +13,7 @@ function isEven($number)
     return $number % 2 === 0;
 }
 
-function runBrainEvenGame()
+function runEvenGame()
 {
       $getData = function () {
         $question = random_int(MIN, MAX);

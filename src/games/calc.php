@@ -1,13 +1,13 @@
 <?php
 
-namespace BrainGames\Games\calc;
+namespace BrainGames\games\calc;
 
 use function BrainGames\index\run;
 
 const DESCRIPTION = "What is the result of the expression?";
 const OPERATIONS = ["-", "+", "*"];
 
-function runBrainCalcGame()
+function runCalcGame()
 {
       $getData = function () {
         $operation = OPERATIONS[array_rand(OPERATIONS)];
