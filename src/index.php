@@ -5,7 +5,7 @@ namespace BrainGames\index;
 use function \cli\line;
 use function \cli\prompt;
 
-const COUNT_ROUND = 3;
+const ROUNDS_COUNT = 3;
 
 function run($description, $questionAnswerData)
 {
@@ -16,7 +16,7 @@ function run($description, $questionAnswerData)
     line("Hello, %s!", $name);
     line();
 
-    for ($i = 0; $i < COUNT_ROUND; $i++) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         [$currentQuestion, $correctAnswer] = $questionAnswerData();
 
         line("Question: %s", $currentQuestion);

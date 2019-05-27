@@ -7,9 +7,9 @@ use function BrainGames\index\run;
 const DESCRIPTION = "What number is missing in the progression?";
 const LENGTH_PROGRESSION = 10;
 
-function getProgression($start, $step)
+function getProgression($start, $step, $length)
 {
-    $stop = (LENGTH_PROGRESSION * $step + $start) - 1;
+    $stop = ($length * $step + $start) - 1;
     $progression = range($start, $stop, $step);
     return $progression;
 }
@@ -20,7 +20,7 @@ function runProgressionGame()
         $startSequence = rand(1, 20);
         $stepSequence = rand(2, 9);
 
-        $progression = getProgression($startSequence, $stepSequence);
+        $progression = getProgression($startSequence, $stepSequence, LENGTH_PROGRESSION);
 
         $randKey = array_rand($progression);
         $correctAnswer = (string)$progression[$randKey];

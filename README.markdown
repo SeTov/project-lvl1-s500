@@ -1,4 +1,4 @@
-# Project Brain Games 13 may - 13 june
+# Project Brain Games. Level - 1
 
 Welcome to this repository specially created for stydying of **profession PHP programmer** on Hexlet.
 
