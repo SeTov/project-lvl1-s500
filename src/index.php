@@ -25,9 +25,7 @@ function run($description, $questionAnswerData)
             line("%gCorrect!%n");
             line();
         } else {
-            $message = "$playerAnswer %ris wrong answer%n ;(. "
-                        . "Correct answer was %g$correctAnswer%n";
-            line($message);
+            line("%s %ris wrong answer%n ;(. Correct answer was %g%s%n", $playerAnswer, $correctAnswer);
             line("Let's try again, %s", $name);
             return;
         }
